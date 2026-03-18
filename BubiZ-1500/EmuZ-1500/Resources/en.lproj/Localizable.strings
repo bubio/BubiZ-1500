@@ -1,0 +1,97 @@
+/* English (Base) - Localizable.strings */
+
+/* App Menu */
+"About EmuZ-1500" = "About EmuZ-1500";
+"Quit EmuZ-1500" = "Quit EmuZ-1500";
+
+/* Window Menu */
+"Window" = "Window";
+"Enter Full Screen" = "Enter Full Screen";
+"Minimize" = "Minimize";
+
+/* Control Menu */
+"Control" = "Control";
+"Reset" = "Reset";
+"Full Speed" = "Full Speed";
+"Drive VM in M1/R/W Cycle" = "Drive VM in M1/R/W Cycle";
+"Paste" = "Paste";
+"Stop" = "Stop";
+"Romaji to Kana" = "Romaji to Kana";
+"Save State" = "Save State";
+"Load State" = "Load State";
+"State %d" = "State %d";
+"Debug Main CPU" = "Debug Main CPU";
+"Close Debugger" = "Close Debugger";
+
+/* CMT Menu */
+"CMT" = "CMT";
+"Play" = "Play";
+"Rec" = "Rec";
+"Eject" = "Eject";
+"Play Button" = "Play Button";
+"Stop Button" = "Stop Button";
+"Fast Forward" = "Fast Forward";
+"Fast Rewind" = "Fast Rewind";
+"Waveform Shaper" = "Waveform Shaper";
+"Recent" = "Recent";
+
+/* QD Menu */
+"QD" = "QD";
+"Insert" = "Insert";
+"Next Disk" = "Next Disk";
+"Previous Disk" = "Previous Disk";
+
+/* Device Menu */
+"Device" = "Device";
+"Option" = "Option";
+"Joystick" = "Joystick";
+"Sound" = "Sound";
+"Display" = "Display";
+"Printer" = "Printer";
+"Play FDD Noise" = "Play FDD Noise";
+"Play CMT Noise" = "Play CMT Noise";
+"Play CMT Signal" = "Play CMT Signal";
+"Play CMT Voice" = "Play CMT Voice";
+"Scanline" = "Scanline";
+"Write Printer to File" = "Write Printer to File";
+"None" = "None";
+"Write Protected" = "Write Protected";
+"Correct Timing" = "Correct Timing";
+"Ignore CRC Errors" = "Ignore CRC Errors";
+"Insert Blank 2D Disk" = "Insert Blank 2D Disk";
+"Insert Blank 2DD Disk" = "Insert Blank 2DD Disk";
+
+/* Host Menu */
+"Host" = "Host";
+"Capture Screen" = "Capture Screen";
+"Screen" = "Screen";
+"Window Aspect Ratio 640×400" = "Window Aspect Ratio 640×400";
+"Window Aspect Ratio 640×480" = "Window Aspect Ratio 640×480";
+"Screen Filter" = "Screen Filter";
+"Old School" = "Old School";
+"NTSC Composite" = "NTSC Composite";
+"RGB Filter" = "RGB Filter";
+"Cycle Screen Filter" = "Cycle Screen Filter";
+"Sound Filter" = "Sound Filter";
+"Reverb" = "Reverb";
+"Chorus" = "Chorus";
+
+/* Alerts */
+"Screenshot save failed" = "Screenshot save failed";
+"An error occurred while saving the screen capture." = "An error occurred while saving the screen capture.";
+"Required ROM files not found" = "Required ROM files not found";
+"The following ROM files are required:\n\n" = "The following ROM files are required:\n\n";
+"\nLocation:\n%@\n\nPlease place the ROM files and restart." = "\nLocation:\n%@\n\nPlease place the ROM files and restart.";
+"Quit" = "Quit";
+
+/* File Panels */
+"Open Tape Image" = "Open Tape Image";
+"Record Tape" = "Record Tape";
+"Open Quick Disk Image" = "Open Quick Disk Image";
+"Save Screenshot" = "Save Screenshot";
+"Open Floppy Disk Image (Drive %d)" = "Open Floppy Disk Image (Drive %d)";
+"Create Blank %@ Disk (Drive %d)" = "Create Blank %@ Disk (Drive %d)";
+
+/* Status Bar */
+"%.0f fps" = "%.0f fps";
+"%.1f fps" = "%.1f fps";

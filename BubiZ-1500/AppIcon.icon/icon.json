@@ -1,0 +1,49 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "display-p3:0.30533,0.38946,0.66271,1.00000",
+      "display-p3:0.60794,0.64584,0.65589,1.00000"
+    ],
+    "orientation" : {
+      "start" : {
+        "x" : 0.5,
+        "y" : 0
+      },
+      "stop" : {
+        "x" : 0.5,
+        "y" : 0.7
+      }
+    }
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "image-name" : "QD2.png",
+          "name" : "QD2",
+          "position" : {
+            "scale" : 0.8,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

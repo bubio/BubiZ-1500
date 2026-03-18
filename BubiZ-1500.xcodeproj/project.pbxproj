@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B6EC2E2F2F3F64E0008C70DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EC2E182F3F64DF008C70DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6EC2E1F2F3F64DF008C70DD;
+			remoteInfo = "BubiZ-1500";
+		};
+		B6EC2E392F3F64E0008C70DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EC2E182F3F64DF008C70DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6EC2E1F2F3F64DF008C70DD;
+			remoteInfo = "BubiZ-1500";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6EC2E202F3F64DF008C70DD /* BubiZ-1500.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BubiZ-1500.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EC2E2E2F3F64E0008C70DD /* BubiZ-1500Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BubiZ-1500Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EC2E382F3F64E0008C70DD /* BubiZ-1500UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BubiZ-1500UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EC2EDA2F3F66CB008C70DD /* BubiZ-1500.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BubiZ-1500.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B6EC2E222F3F64DF008C70DD /* BubiZ-1500 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BubiZ-1500";
+			sourceTree = "<group>";
+		};
+		B6EC2E312F3F64E0008C70DD /* BubiZ-1500Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BubiZ-1500Tests";
+			sourceTree = "<group>";
+		};
+		B6EC2E3B2F3F64E0008C70DD /* BubiZ-1500UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BubiZ-1500UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6EC2E1D2F3F64DF008C70DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EC2E2B2F3F64E0008C70DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EC2E352F3F64E0008C70DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6EC2E172F3F64DF008C70DD = {
+			isa = PBXGroup;
+			children = (
+				B6EC2E222F3F64DF008C70DD /* BubiZ-1500 */,
+				B6EC2E312F3F64E0008C70DD /* BubiZ-1500Tests */,
+				B6EC2E3B2F3F64E0008C70DD /* BubiZ-1500UITests */,
+				B6EC2E212F3F64DF008C70DD /* Products */,
+				B6EC2EDA2F3F66CB008C70DD /* BubiZ-1500.entitlements */,
+			);
+			sourceTree = "<group>";
+		};
+		B6EC2E212F3F64DF008C70DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC2E202F3F64DF008C70DD /* BubiZ-1500.app */,
+				B6EC2E2E2F3F64E0008C70DD /* BubiZ-1500Tests.xctest */,
+				B6EC2E382F3F64E0008C70DD /* BubiZ-1500UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6EC2E1F2F3F64DF008C70DD /* BubiZ-1500 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EC2E422F3F64E0008C70DD /* Build configuration list for PBXNativeTarget "BubiZ-1500" */;
+			buildPhases = (
+				B6EC2E1C2F3F64DF008C70DD /* Sources */,
+				B6EC2E1D2F3F64DF008C70DD /* Frameworks */,
+				B6EC2E1E2F3F64DF008C70DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B6EC2E222F3F64DF008C70DD /* BubiZ-1500 */,
+			);
+			name = "BubiZ-1500";
+			packageProductDependencies = (
+			);
+			productName = "BubiZ-1500";
+			productReference = B6EC2E202F3F64DF008C70DD /* BubiZ-1500.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6EC2E2D2F3F64E0008C70DD /* BubiZ-1500Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EC2E452F3F64E0008C70DD /* Build configuration list for PBXNativeTarget "BubiZ-1500Tests" */;
+			buildPhases = (
+				B6EC2E2A2F3F64E0008C70DD /* Sources */,
+				B6EC2E2B2F3F64E0008C70DD /* Frameworks */,
+				B6EC2E2C2F3F64E0008C70DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6EC2E302F3F64E0008C70DD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B6EC2E312F3F64E0008C70DD /* BubiZ-1500Tests */,
+			);
+			name = "BubiZ-1500Tests";
+			packageProductDependencies = (
+			);
+			productName = "BubiZ-1500Tests";
+			productReference = B6EC2E2E2F3F64E0008C70DD /* BubiZ-1500Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6EC2E372F3F64E0008C70DD /* BubiZ-1500UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EC2E482F3F64E0008C70DD /* Build configuration list for PBXNativeTarget "BubiZ-1500UITests" */;
+			buildPhases = (
+				B6EC2E342F3F64E0008C70DD /* Sources */,
+				B6EC2E352F3F64E0008C70DD /* Frameworks */,
+				B6EC2E362F3F64E0008C70DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6EC2E3A2F3F64E0008C70DD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B6EC2E3B2F3F64E0008C70DD /* BubiZ-1500UITests */,
+			);
+			name = "BubiZ-1500UITests";
+			packageProductDependencies = (
+			);
+			productName = "BubiZ-1500UITests";
+			productReference = B6EC2E382F3F64E0008C70DD /* BubiZ-1500UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6EC2E182F3F64DF008C70DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					B6EC2E1F2F3F64DF008C70DD = {
+						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
+					};
+					B6EC2E2D2F3F64E0008C70DD = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = B6EC2E1F2F3F64DF008C70DD;
+					};
+					B6EC2E372F3F64E0008C70DD = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = B6EC2E1F2F3F64DF008C70DD;
+					};
+				};
+			};
+			buildConfigurationList = B6EC2E1B2F3F64DF008C70DD /* Build configuration list for PBXProject "BubiZ-1500" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = B6EC2E172F3F64DF008C70DD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B6EC2E212F3F64DF008C70DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6EC2E1F2F3F64DF008C70DD /* BubiZ-1500 */,
+				B6EC2E2D2F3F64E0008C70DD /* BubiZ-1500Tests */,
+				B6EC2E372F3F64E0008C70DD /* BubiZ-1500UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6EC2E1E2F3F64DF008C70DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EC2E2C2F3F64E0008C70DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EC2E362F3F64E0008C70DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6EC2E1C2F3F64DF008C70DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EC2E2A2F3F64E0008C70DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EC2E342F3F64E0008C70DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6EC2E302F3F64E0008C70DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6EC2E1F2F3F64DF008C70DD /* BubiZ-1500 */;
+			targetProxy = B6EC2E2F2F3F64E0008C70DD /* PBXContainerItemProxy */;
+		};
+		B6EC2E3A2F3F64E0008C70DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6EC2E1F2F3F64DF008C70DD /* BubiZ-1500 */;
+			targetProxy = B6EC2E392F3F64E0008C70DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6EC2E402F3F64E0008C70DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z9RG6Y45L5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6EC2E412F3F64E0008C70DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z9RG6Y45L5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B6EC2E432F3F64E0008C70DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "BubiZ-1500.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = Z9RG6Y45L5;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"'_MZ1500=1'",
+					"'_RGB888=1'",
+					"'OSD_MACOS=1'",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AVFoundation,
+					"-framework",
+					AudioToolbox,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bubio.BubiZ-1500";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited) _MZ1500 _RGB888 OSD_MACOS";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BubiZ-1500/EmuZ-1500/Bridge/EmuZ_1500-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/BubiZ-1500/EmuZ-1500/macOS",
+					"$(SRCROOT)/BubiZ-1500/Core/**",
+					"$(SRCROOT)/BubiZ-1500/EmuZ-1500/Bridge",
+				);
+			};
+			name = Debug;
+		};
+		B6EC2E442F3F64E0008C70DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "BubiZ-1500.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = Z9RG6Y45L5;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'_MZ1500=1'",
+					"'_RGB888=1'",
+					"$(inherited)",
+					"'OSD_MACOS=1'",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AVFoundation,
+					"-framework",
+					AudioToolbox,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bubio.BubiZ-1500";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "_MZ1500 _RGB888 OSD_MACOS $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BubiZ-1500/EmuZ-1500/Bridge/EmuZ_1500-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/BubiZ-1500/EmuZ-1500/macOS",
+					"$(SRCROOT)/BubiZ-1500/Core/**",
+					"$(SRCROOT)/BubiZ-1500/EmuZ-1500/Bridge",
+				);
+			};
+			name = Release;
+		};
+		B6EC2E462F3F64E0008C70DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = Z9RG6Y45L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bubio.BubiZ-1500Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubiZ-1500.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BubiZ-1500";
+			};
+			name = Debug;
+		};
+		B6EC2E472F3F64E0008C70DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = Z9RG6Y45L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bubio.BubiZ-1500Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubiZ-1500.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BubiZ-1500";
+			};
+			name = Release;
+		};
+		B6EC2E492F3F64E0008C70DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = Z9RG6Y45L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bubio.BubiZ-1500UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BubiZ-1500";
+			};
+			name = Debug;
+		};
+		B6EC2E4A2F3F64E0008C70DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = Z9RG6Y45L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bubio.BubiZ-1500UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BubiZ-1500";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6EC2E1B2F3F64DF008C70DD /* Build configuration list for PBXProject "BubiZ-1500" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EC2E402F3F64E0008C70DD /* Debug */,
+				B6EC2E412F3F64E0008C70DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EC2E422F3F64E0008C70DD /* Build configuration list for PBXNativeTarget "BubiZ-1500" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EC2E432F3F64E0008C70DD /* Debug */,
+				B6EC2E442F3F64E0008C70DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EC2E452F3F64E0008C70DD /* Build configuration list for PBXNativeTarget "BubiZ-1500Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EC2E462F3F64E0008C70DD /* Debug */,
+				B6EC2E472F3F64E0008C70DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EC2E482F3F64E0008C70DD /* Build configuration list for PBXNativeTarget "BubiZ-1500UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EC2E492F3F64E0008C70DD /* Debug */,
+				B6EC2E4A2F3F64E0008C70DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6EC2E182F3F64DF008C70DD /* Project object */;
+}

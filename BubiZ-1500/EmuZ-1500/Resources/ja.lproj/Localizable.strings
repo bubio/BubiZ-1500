@@ -1,0 +1,97 @@
+/* Japanese - Localizable.strings */
+
+/* App Menu */
+"About EmuZ-1500" = "EmuZ-1500について";
+"Quit EmuZ-1500" = "EmuZ-1500を終了";
+
+/* Window Menu */
+"Window" = "ウインドウ";
+"Enter Full Screen" = "フルスクリーンにする";
+"Minimize" = "しまう";
+
+/* Control Menu */
+"Control" = "コントロール";
+"Reset" = "リセット";
+"Full Speed" = "最高速度";
+"Drive VM in M1/R/W Cycle" = "M1/R/Wサイクルで駆動";
+"Paste" = "ペースト";
+"Stop" = "停止";
+"Romaji to Kana" = "ローマ字→かな変換";
+"Save State" = "ステート保存";
+"Load State" = "ステート読み込み";
+"State %d" = "ステート %d";
+"Debug Main CPU" = "メインCPUデバッグ";
+"Close Debugger" = "デバッガを閉じる";
+
+/* CMT Menu */
+"CMT" = "CMT";
+"Play" = "再生";
+"Rec" = "録音";
+"Eject" = "取り出し";
+"Play Button" = "再生ボタン";
+"Stop Button" = "停止ボタン";
+"Fast Forward" = "早送り";
+"Fast Rewind" = "巻き戻し";
+"Waveform Shaper" = "波形整形";
+"Recent" = "最近使った項目";
+
+/* QD Menu */
+"QD" = "QD";
+"Insert" = "挿入";
+"Next Disk" = "次のディスク";
+"Previous Disk" = "前のディスク";
+
+/* Device Menu */
+"Device" = "デバイス";
+"Option" = "オプション";
+"Joystick" = "ジョイスティック";
+"Sound" = "サウンド";
+"Display" = "ディスプレイ";
+"Printer" = "プリンタ";
+"Play FDD Noise" = "FDDノイズ再生";
+"Play CMT Noise" = "CMTノイズ再生";
+"Play CMT Signal" = "CMT信号再生";
+"Play CMT Voice" = "CMTボイス再生";
+"Scanline" = "スキャンライン";
+"Write Printer to File" = "プリンタ出力をファイルに保存";
+"None" = "なし";
+"Write Protected" = "書き込み禁止";
+"Correct Timing" = "正確なタイミング";
+"Ignore CRC Errors" = "CRCエラーを無視";
+"Insert Blank 2D Disk" = "空の2Dディスクを挿入";
+"Insert Blank 2DD Disk" = "空の2DDディスクを挿入";
+
+/* Host Menu */
+"Host" = "ホスト";
+"Capture Screen" = "画面キャプチャ";
+"Screen" = "画面";
+"Window Aspect Ratio 640×400" = "ウインドウ比率 640×400";
+"Window Aspect Ratio 640×480" = "ウインドウ比率 640×480";
+"Screen Filter" = "画面フィルター";
+"Old School" = "レトロ";
+"NTSC Composite" = "NTSCコンポジット";
+"RGB Filter" = "RGBフィルター";
+"Cycle Screen Filter" = "画面フィルター切替";
+"Sound Filter" = "サウンドフィルター";
+"Reverb" = "リバーブ";
+"Chorus" = "コーラス";
+
+/* Alerts */
+"Screenshot save failed" = "スクリーンショット保存失敗";
+"An error occurred while saving the screen capture." = "画面キャプチャの保存中にエラーが発生しました。";
+"Required ROM files not found" = "必須ROMファイルが見つかりません";
+"The following ROM files are required:\n\n" = "以下のROMファイルが必要です:\n\n";
+"\nLocation:\n%@\n\nPlease place the ROM files and restart." = "\n配置場所:\n%@\n\nROMファイルを配置後、再度起動してください。";
+"Quit" = "終了";
+
+/* File Panels */
+"Open Tape Image" = "テープイメージを開く";
+"Record Tape" = "テープに録音";
+"Open Quick Disk Image" = "クイックディスクイメージを開く";
+"Save Screenshot" = "スクリーンショットを保存";
+"Open Floppy Disk Image (Drive %d)" = "フロッピーディスクイメージを開く (ドライブ %d)";
+"Create Blank %@ Disk (Drive %d)" = "空の%@ディスクを作成 (ドライブ %d)";
+
+/* Status Bar */
+"%.0f fps" = "%.0f fps";
+"%.1f fps" = "%.1f fps";

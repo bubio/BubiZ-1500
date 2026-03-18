@@ -1,0 +1,67 @@
+name: macOS Build
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  build-macos:
+    runs-on: macos-26
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Build
+        run: |
+          xcodebuild -project BubiZ-1500.xcodeproj \
+            -scheme BubiZ-1500 \
+            -configuration Release \
+            -derivedDataPath build \
+            ARCHS="arm64 x86_64" \
+            ONLY_ACTIVE_ARCH=NO \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Package .app (non-release)
+        if: github.event_name != 'release'
+        run: |
+          cd build/Build/Products/Release
+          ditto -c -k --sequesterRsrc --keepParent BubiZ-1500.app BubiZ-1500.app.zip
+
+      - name: Upload .app Artifact
+        if: github.event_name != 'release'
+        uses: actions/upload-artifact@v7
+        with:
+          name: BubiZ-1500-macos-portable
+          path: build/Build/Products/Release/BubiZ-1500.app.zip
+
+      - name: Package DMG (Release only)
+        if: github.event_name == 'release'
+        run: |
+          APP_PATH="build/Build/Products/Release/BubiZ-1500.app"
+          DMG_NAME="BubiZ-1500-macos.dmg"
+          mkdir -p dmg_contents
+          cp -R "$APP_PATH" dmg_contents/
+          hdiutil create -volname "BubiZ-1500" -srcfolder dmg_contents -ov -format UDZO "$DMG_NAME"
+
+      - name: Upload DMG Artifact
+        if: github.event_name == 'release'
+        uses: actions/upload-artifact@v7
+        with:
+          name: BubiZ-1500-macos.dmg
+          path: BubiZ-1500-macos.dmg
+
+      - name: Update Release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          file: BubiZ-1500-macos.dmg
+          overwrite: true
