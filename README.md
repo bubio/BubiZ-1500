@@ -1,12 +1,12 @@
 # BubiZ-1500
 
 <p align="center">
-  <img src="Docs/AppIcon.png" alt="QUASI88" width="128" height="128">
+  <img src="Docs/AppIcon.png" alt="BubiZ-1500" width="128" height="128">
 </p>
 
+[日本語](README.ja.md)
 
-
-Sharp MZ-1500 エミュレーター for macOS
+Sharp MZ-1500 Emulator for macOS
 
 
 <p align="center">
@@ -24,51 +24,54 @@ Sharp MZ-1500 エミュレーター for macOS
 
 ## About
 
-BubiZ-1500 は、Sharp MZ-1500 パーソナルコンピュータの macOS ネイティブエミュレーターです。
-[common source code project](https://takeda-toshiya.my.coocan.jp/common/index.html)のEmuZ-1500をベースに、macOS 向けに移植・最適化しています。
+BubiZ-1500 is a native macOS emulator for the Sharp MZ-1500 personal computer — a Japan-exclusive 8-bit machine released by Sharp in 1984.
 
-<p align="center">
-  <img src="Docs/Screenshot.png" alt="BubiZ-1500 Screenhot">
-</p>
+It is based on EmuZ-1500 from the [Common Source Code Project](https://takeda-toshiya.my.coocan.jp/common/index.html) (a well-known multi-platform emulator framework by Takeda Toshiya), ported and optimized for macOS.
+
+<p align="center"><sub><sup>Dig Dug © 1982 Namco Ltd. &nbsp;|&nbsp; MZ-1500 version © 1984 Dempa Publications, Inc. / Micomsoft Co., Ltd.</sup></sub></p>
+<p align="center"><img src="Docs/Screenshot1.png" alt="Dig Dug on BubiZ-1500"></p>
+
+<p align="center"><sub><sup>The Tower of Druaga © 1984 Namco Ltd. &nbsp;|&nbsp; MZ-1500 version © 1985 Dempa Publications, Inc. / Micomsoft Co., Ltd.</sup></sub></p>
+<p align="center"><img src="Docs/Screenshot2.png" alt="The Tower of Druaga on BubiZ-1500"></p>
 
 
 ## Features
 
-- Metal による高速な画面描画
-- Metal シェーダーによる画面フィルター（CRT、NTSC コンポジット、RGB）
-- AVAudioEngine による低遅延サウンド出力（PSG: SN76489AN x2、PCM1BIT）
-- サウンドフィルター（スピーカーシミュレーション、リバーブ、コーラス）
-- Z80 CPU エミュレーション
-- フロッピーディスク / クイックディスク / カセットテープ対応
-- QD ディスクセット自動検出・クイック切り替え
-- ステートセーブ / ロード
-- ゲームコントローラー対応
-- Universal Binary（Apple Silicon / Intel）
+- High-performance rendering via Metal
+- Screen filters via Metal shaders (CRT, NTSC composite, RGB)
+- Low-latency audio output via AVAudioEngine (PSG: SN76489AN ×2, PCM 1-bit)
+- Audio filters (speaker simulation, reverb, chorus)
+- Cycle-accurate Z80 CPU emulation
+- Floppy disk / Quick Disk / cassette tape support
+- Auto-detection of QD disk sets with quick switching
+- State save / load
+- Game controller support
+- Universal Binary (Apple Silicon / Intel)
 
 ## System Requirements
 
-- macOS 13.5 (Ventura) 以降
-- Apple Silicon または Intel Mac
+- macOS 13.5 (Ventura) or later
+- Apple Silicon or Intel Mac
 
 ## Install
 
-[Releases](https://github.com/bubio/BubiZ-1500/releases)ページから最新版をダウンロードしてください。
+Download the latest release from the [Releases](https://github.com/bubio/BubiZ-1500/releases) page.
 
-> **注意**: このアプリはAppleによるノータリゼーション（公証）を受けていないため、初回起動時にGatekeeperによってブロックされる場合があります。以下のいずれかの方法で回避できます：
+> **Note**: This app is not notarized by Apple, so macOS Gatekeeper may block it on first launch. You can work around this using either of the following methods:
 >
-> **方法1: ターミナルで隔離フラグを削除**
+> **Option 1: Remove the quarantine flag via Terminal**
 > ```bash
 > xattr -cr /Applications/BubiZ-1500.app
 > ```
 >
-> **方法2: システム設定から許可**
-> 1. アプリを開こうとしてブロックされた後
-> 2. 「システム設定」→「プライバシーとセキュリティ」を開く
-> 3. 「"BubiZ-1500"は開発元を確認できないため、使用がブロックされました」の横にある「このまま開く」をクリック
+> **Option 2: Allow via System Settings**
+> 1. Attempt to open the app and let it get blocked
+> 2. Open **System Settings** → **Privacy & Security**
+> 3. Click **"Open Anyway"** next to the message about BubiZ-1500 being blocked
 
 ## Build
 
-Xcode でプロジェクトを開いてビルドします。
+Open the project in Xcode and build.
 
 ```bash
 open BubiZ-1500.xcodeproj
@@ -81,9 +84,9 @@ open BubiZ-1500.xcodeproj
 
 ## ROM Files
 
-MZ-1500 の起動には実機の ROM ファイルが必要です（本プロジェクトには含まれていません）。
+Running MZ-1500 requires ROM files from the original hardware (not included in this repository).
 
-ROM ファイルは*~/Library/Application Support/BubiZ-1500/ROM*に配置してください。
+Place the ROM files in *~/Library/Application Support/BubiZ-1500/ROM*:
 
 ```
 ~/Library/Application Support/BubiZ-1500
@@ -107,6 +110,6 @@ EMU Core (C++)
 
 ## Credits
 
-- エミュレーションコア: [common source code project](https://takeda-toshiya.my.coocan.jp/common/index.html) by Takeda Toshiya
+- Emulation core: [Common Source Code Project](https://takeda-toshiya.my.coocan.jp/common/index.html) by Takeda Toshiya
 
-- NTSC Video Emulator: [NTSC Video Emulator](https://github.com/zhuker/ntsc) by [zhuker](https://github.com/zhuker) 
+- NTSC Video Emulator: [NTSC Video Emulator](https://github.com/zhuker/ntsc) by [zhuker](https://github.com/zhuker)
